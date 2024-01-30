@@ -17,7 +17,7 @@ export default function RootLayout({
     return (
         <html lang="en">
         <head>
-            <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=''"
+            <script src="https://api-maps.yandex.ru/2.1/?load=Map,control.Button&lang=ru_RU&apikey=''"
                     type="text/javascript"></script>
         </head>
         <body className={inter.className}>{children}</body>
